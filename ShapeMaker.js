@@ -33,9 +33,9 @@ function initMap() {
     var jbhtOverlay = new google.maps.GroundOverlay('jbht_f1.png', overlayBounds);
     jbhtOverlay.setMap(map);
 
-    var marker = new google.maps.Marker({
+    /*var marker = new google.maps.Marker({
         position: jbht,
         map: map
-    });
+    });*/
 
 }
